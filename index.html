@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bold Words</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Make Bionics</h1>
+		<textarea id="input" rows="10" placeholder="Enter text here..." onkeyup="checkInput()"></textarea>
+		<button onclick="boldText()">Bold</button>
+		<p id="output"></p>
+        <div id="file-content">
+            <h2>Or Uplaod a Text File: </h2>
+            <input type="file" id="file-input">
+            <button onclick="processFile()">Process File</button>
+        </div>
+	</div>
+
+	<div class="footer">
+		Made with &#10084; in Houston, TX. &copy; 2023
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
